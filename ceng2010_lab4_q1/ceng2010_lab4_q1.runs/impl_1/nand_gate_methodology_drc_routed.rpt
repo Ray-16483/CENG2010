@@ -1,0 +1,77 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Wed Oct 12 21:19:06 2022
+| Host         : LAPTOP-CULLAKHA running 64-bit major release  (build 9200)
+| Command      : report_methodology -file nand_gate_methodology_drc_routed.rpt -pb nand_gate_methodology_drc_routed.pb -rpx nand_gate_methodology_drc_routed.rpx
+| Design       : nand_gate
+| Device       : xc7a35ticpg236-1L
+| Speed File   : -1L
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 8
++-----------+------------------+--------------------------------+------------+
+| Rule      | Severity         | Description                    | Violations |
++-----------+------------------+--------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell    | 3          |
+| TIMING-20 | Warning          | Non-clocked latch              | 4          |
+| LATCH-1   | Advisory         | Existing latches in the design | 1          |
++-----------+------------------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin FSM_onehot_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin FSM_onehot_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin FSM_onehot_state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch led_reg[0] cannot be properly analyzed as its control pin led_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch led_reg[5] cannot be properly analyzed as its control pin led_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch led_reg[6] cannot be properly analyzed as its control pin led_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch led_reg[7] cannot be properly analyzed as its control pin led_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 4 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+
