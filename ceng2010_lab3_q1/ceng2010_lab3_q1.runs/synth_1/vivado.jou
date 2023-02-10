@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Mon Oct 03 18:15:36 2022
+# Process ID: 7356
+# Current directory: C:/Users/student/Desktop/ceng2010_lab3_q1/ceng2010_lab3_q1.runs/synth_1
+# Command line: vivado.exe -log nand_gate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source nand_gate.tcl
+# Log file: C:/Users/student/Desktop/ceng2010_lab3_q1/ceng2010_lab3_q1.runs/synth_1/nand_gate.vds
+# Journal file: C:/Users/student/Desktop/ceng2010_lab3_q1/ceng2010_lab3_q1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source nand_gate.tcl -notrace
