@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Sep 30 22:18:03 2022
+# Process ID: 3484
+# Current directory: C:/Users/13022/Desktop/ceng2010_lab2_q3/ceng2010_lab2_q3.runs/synth_1
+# Command line: vivado.exe -log nand_gate.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source nand_gate.tcl
+# Log file: C:/Users/13022/Desktop/ceng2010_lab2_q3/ceng2010_lab2_q3.runs/synth_1/nand_gate.vds
+# Journal file: C:/Users/13022/Desktop/ceng2010_lab2_q3/ceng2010_lab2_q3.runs/synth_1\vivado.jou
+# Running On: LAPTOP-CULLAKHA, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 8, Host memory: 16935 MB
+#-----------------------------------------------------------
+source nand_gate.tcl -notrace
